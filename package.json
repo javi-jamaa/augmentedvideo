@@ -17,8 +17,7 @@
   "scripts": {
     "lint": "eslint lib",
     "start": "node lib/augmented-video.js",
-    "prestart": "npm install",
-    "postinstall": "npm run build"
+    "prestart": "npm install"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
