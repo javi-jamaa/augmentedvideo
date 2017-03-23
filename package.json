@@ -1,0 +1,35 @@
+{
+  "name": "augmented-video",
+  "description": "A simple service for Augmented Videoconferences",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "David Lozano",
+    "email": "david.lozanollanos@telefonica.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dlozlla/augmentedvideo.git"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-domaining": "^2.0.1",
+    "express-logging": "^1.1.1",
+    "express-tracking": "^1.0.1",
+    "logops": "^1.0.7",
+    "nedb": "^1.8.0"
+  },
+  "keywords": [
+    "express",
+    "videoconference",
+    "augmented"
+  ]
+}

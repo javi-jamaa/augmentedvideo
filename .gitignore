@@ -1,0 +1,10 @@
+node_modules/
+coverage/
+report/
+site/
+commons/
+.idea/
+.DS_Store
+*.log
+delivery/deploy/roles/*
+members
