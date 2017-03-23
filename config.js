@@ -1,7 +1,7 @@
 'use strict';
 
 var config = {
-  port: 80,
+  port: 3000,
   apiBaseURL: 'http://127.0.0.1:3000/agora/api/v1/members/',
   realm: 'mycompany',
   membersApiPageSize: 100,
